@@ -1,10 +1,10 @@
 .button {
-    width: 189px;
     height: 48px;
     padding-top: 15px;
     padding-bottom: 14px;
     border-radius: 8px;
     border-color: transparent;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -13,22 +13,28 @@
     color: var(--white);
 }
 
-.button__primary {
+.button_primary {
     background-color: var(--primary);
+    padding-left: 63px;
+    padding-right: 62px;
 }
 
-.button__secondary {
+.button_secondary {
     background-color: var(--secondary);
+    padding-left: 53px;
+    padding-right: 53px;
 }
 
-.button__alternate {
+.button_alternate {
     background-color: transparent;
     color: var(--grey-4);
     border: 1px solid;
     border-color: var(--grey-3);
+    padding-left: 58px;
+    padding-right: 58px;
 }
 
-button:disabled {
+.button:disabled {
     pointer-events: none;
     opacity: 0.5;
 }
