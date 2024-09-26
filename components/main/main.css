@@ -1,4 +1,9 @@
 .main {
-    height: 1036px;
-    background-color: #F9FAFC;
+    background-color: var(--grey-1);
+    padding: 68px 0;
+}
+
+.main__grid {
+    display: flex;
+    gap: 30px;
 }
