@@ -1,7 +1,6 @@
 .button {
     height: 48px;
-    padding-top: 15px;
-    padding-bottom: 14px;
+    padding: 15px 53px;
     border-radius: 8px;
     border-color: transparent;
     font-family: 'Roboto', sans-serif;
@@ -15,14 +14,10 @@
 
 .button_primary {
     background-color: var(--primary);
-    padding-left: 63px;
-    padding-right: 62px;
 }
 
 .button_secondary {
     background-color: var(--secondary);
-    padding-left: 53px;
-    padding-right: 53px;
 }
 
 .button_alternate {
@@ -30,8 +25,6 @@
     color: var(--grey-4);
     border: 1px solid;
     border-color: var(--grey-3);
-    padding-left: 58px;
-    padding-right: 58px;
 }
 
 .button:disabled {
