@@ -1,7 +1,7 @@
 .histogram {
     border-radius: 8px;
     border: 1px solid var(--grey-3);
-    padding: 16px 24px;
+    padding: 16px 24px 24px;
 
 }
 
@@ -23,38 +23,40 @@
     flex-direction: row;
     align-items: flex-end;
     gap: 1px;
+    height: 50%;
 }
 
-.block {
-    width: 50px;
+.histogram__block {
+    flex-grow: 1;
     background-color: var(--histogram);
 }
 
-.block_large {
+.histogram__block_large {
     height: 100px;
 }
 
-.block_small {
+.histogram__block_small {
     height: 20px;
 }
 
-.block_medium {
+.histogram__block_medium {
     height: 60px;
 }
 
-.content__title {
+.histogram__title {
     opacity: 80%;
 }
 
-.content__number {
+.histogram__number {
     margin: 0;
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
 }
 
-.content__link {
+.histogram__link {
     color: var(--histogram);
+    padding-top: 3px;
 }
 
 p {
