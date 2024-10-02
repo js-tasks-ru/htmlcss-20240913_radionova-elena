@@ -3,6 +3,7 @@
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
 @import '../../components/page/page.css';
+@import '../../pages/template/template.css';
 
 :root {
     --white: #ffffff;
