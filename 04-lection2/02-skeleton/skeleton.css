@@ -10,6 +10,7 @@
 .skeleton__header {
     display: flex;
     gap: 16px;
+    align-items: center;
 }
 
 .skeleton__content {
@@ -29,7 +30,6 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    padding-top: 8px;
     max-width: 100%;
     flex-grow: 1;
 }
