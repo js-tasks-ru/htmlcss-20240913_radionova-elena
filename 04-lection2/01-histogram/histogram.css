@@ -23,7 +23,7 @@
     flex-direction: row;
     align-items: flex-end;
     gap: 1px;
-    height: 50%;
+    height: 50px;
 }
 
 .histogram__block {
@@ -32,19 +32,20 @@
 }
 
 .histogram__block_large {
-    height: 100px;
+    height: 100%;
 }
 
 .histogram__block_small {
-    height: 20px;
+    height: 40%;
 }
 
 .histogram__block_medium {
-    height: 60px;
+    height: 60%;
 }
 
 .histogram__title {
     opacity: 80%;
+    margin: 0;
 }
 
 .histogram__number {
@@ -57,8 +58,4 @@
 .histogram__link {
     color: var(--histogram);
     padding-top: 3px;
-}
-
-p {
-    margin: 0;
 }
