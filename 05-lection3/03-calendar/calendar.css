@@ -3,7 +3,7 @@
     max-width: 300px;
     border-radius: 8px;
     border: 1px solid var(--grey-3);
-    padding: 28px 30px 40px;
+    padding: 28px 26px 32px;
 }
 
 .calendar__title {
@@ -13,7 +13,7 @@
     line-height: 24px;
     text-align: center;
     color: #334D6E;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .calendar__wrapper {
