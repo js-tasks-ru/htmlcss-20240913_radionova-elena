@@ -3,6 +3,8 @@
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
 @import '../../components/page/page.css';
+@import '../../components/container/container.css';
+@import '../../components/card/card.css';
 
 :root {
     --white: #ffffff;
@@ -24,6 +26,7 @@
     --secondary: var(--purple);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
