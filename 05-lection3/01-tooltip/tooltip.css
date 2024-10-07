@@ -1,7 +1,10 @@
+.wrapper {
+    padding: 60px;
+}
+
 .tooltip {
     display: inline-block;
     position: relative;
-    margin: 60px;
 }
 
 .tooltip__bubble {
