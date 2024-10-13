@@ -16,3 +16,17 @@ p {
     font-family: 'Inter', sans-serif;
     color: #212429;
 }
+
+.page_inner {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background: #F9FAFC;
+}
+
+.page__main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+    grid-area: main;
+}

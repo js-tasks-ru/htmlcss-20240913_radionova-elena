@@ -7,3 +7,9 @@
     padding-top: 96px;
     padding-left: 160px;
 }
+
+.header_inner {
+    background: #F9FAFC;
+    grid-area: header;
+    margin-bottom: 36px;
+}

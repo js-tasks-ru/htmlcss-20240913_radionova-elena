@@ -16,3 +16,20 @@
     margin-right: 25%;
     margin-bottom: 136px;
 }
+
+.footer__text {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #ACB5BD;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    margin: 0;
+}
+
+.footer_inner {
+    background: #F9FAFC;
+    grid-area: footer;
+}
