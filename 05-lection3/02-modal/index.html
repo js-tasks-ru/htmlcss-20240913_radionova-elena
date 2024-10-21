@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <!-- Страница с модалкой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./modal.css">
-        <link rel="stylesheet" href="./index.css">
-        <title>Modal</title>
-    </head>
-    <body>
-        <button id="modal-open">Open modal</button>
 
-        <div class="modal" id="modal">
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./modal.css">
+    <title>Modal</title>
+</head>
+
+<body>
+    <div class="modalBackdrop"></div>
+    <button id="modal-open" class="button button_primary">Open modal</button>
+    <div id="modal" class="modal">
+        <div class="modal__inner">
+            <div class="modal__button">
+                <svg id="modal-close" class="icon">
+                    <use href=" ../../../../assets/images/sprite.svg#cross"></use>
+                </svg>
+            </div>
             <div class="modal__content">
-                <div class="modal__close" id="modal-close">x</div>
                 <div class="modal__title">Modal title</div>
-                <div class="modal__text">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                </div>
+                <p class="modal__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit
+                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                    consequat
+                    duis
+                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             </div>
         </div>
-    </body>
-    <script src="./index.js"></script> 
+    </div>
+</body>
+<script src="./index.js"></script>
+
 </html>
