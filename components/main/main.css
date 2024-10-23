@@ -1,4 +1,27 @@
 .main {
-    height: 1036px;
-    background-color: #F9FAFC;
+    background-color: var(--grey-1);
+    padding: 68px 0;
+}
+
+.main__grid {
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (max-width: 375px) {
+    .main {
+        padding: 0;
+        background: var(--white);
+    }
+
+    .main__title {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        color: var(--grey-4);
+        margin: 0;
+        margin-bottom: 20px;
+    }
 }

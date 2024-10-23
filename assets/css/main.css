@@ -4,6 +4,9 @@
 @import '../../components/footer/footer.css';
 @import '../../components/page/page.css';
 @import '../../pages/template/template.css';
+@import '../../components/container/container.css';
+@import '../../components/card/card.css';
+@import '../../04-lection2/01-histogram/histogram.css';
 
 :root {
     --white: #ffffff;
@@ -16,6 +19,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --histogram: #4263EB;
 
     --error: var(--red);
     --success: var(--blue);
@@ -26,4 +30,5 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }

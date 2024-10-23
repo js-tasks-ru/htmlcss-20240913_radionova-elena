@@ -1,7 +1,7 @@
-h1 {
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 64px;
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 h2 {
@@ -29,4 +29,5 @@ p {
     grid-template-columns: auto 1fr;
     gap: 56px;
     grid-area: main;
+    flex-grow: 1;
 }
