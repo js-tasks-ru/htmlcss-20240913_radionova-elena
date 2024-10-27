@@ -12,3 +12,19 @@
     line-height: 64px;
     color: var(--black);
 }
+
+@media screen and (max-width: 375px) {
+    .header {
+        padding: 16px 0;
+        margin-bottom: 32px;
+        background: #F9FAFC;
+    }
+
+    .header__logo {
+        background: #F9FAFC;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
