@@ -1,7 +1,7 @@
 .page {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
 }
 
 h2 {
@@ -18,16 +18,26 @@ p {
 }
 
 .page_inner {
-    height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
     background: #F9FAFC;
 }
 
-.page__main {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 56px;
+.page__area {
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+.page__area_footer {
+    grid-area: footer;
+}
+
+.page__area_header {
+    grid-area: header;
+}
+
+.page__area_main {
     grid-area: main;
-    flex-grow: 1;
 }

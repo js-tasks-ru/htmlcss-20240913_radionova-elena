@@ -38,14 +38,11 @@
     line-height: 18px;
     letter-spacing: 0.04em;
     color: #ACB5BD;
-    padding-top: 56px;
-    padding-bottom: 56px;
     margin: 0;
 }
 
 .footer_inner {
     background: #F9FAFC;
-    grid-area: footer;
     text-align: center;
-    color: var(--black);
+    padding-bottom: 56px;
 }

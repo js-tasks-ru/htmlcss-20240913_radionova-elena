@@ -8,6 +8,17 @@
     gap: 30px;
 }
 
+.main__inner {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+    flex-grow: 1;
+}
+
+.main__menu {
+    width: 229px;
+}
+
 @media screen and (max-width: 375px) {
     .main {
         padding: 0;
