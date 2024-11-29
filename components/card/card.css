@@ -5,3 +5,10 @@
     border-radius: 12px;
     gap: 30px
 }
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 164px;
+        height: 210px;
+    }
+}
