@@ -1,7 +1,7 @@
-h1 {
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 64px;
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 h2 {
@@ -12,8 +12,33 @@ h2 {
 
 h1,
 h2,
-h4,
+
 p {
     font-family: 'Inter', sans-serif;
     color: #212429;
+}
+
+.page_inner {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background: #F9FAFC;
+}
+
+.page__area {
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+.page__area_footer {
+    grid-area: footer;
+}
+
+.page__area_header {
+    grid-area: header;
+}
+
+.page__area_main {
+    grid-area: main;
 }
