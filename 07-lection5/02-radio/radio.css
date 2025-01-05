@@ -22,6 +22,16 @@
      justify-content: center;
  }
 
+ .radio__round {
+     width: 18px;
+     height: 18px;
+     background: #4263EB;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
 
  .radio__input:checked~.radio__state .radio__control {
      border: 2px solid #4263EB;
@@ -37,11 +47,11 @@
      left: -100vw;
  }
 
- .radio__icon {
+ .radio__round {
      display: none;
  }
 
- .radio__input:checked~.radio__state .radio__icon {
+ .radio__input:checked~.radio__state .radio__round {
      display: block;
  }
 
@@ -66,16 +76,4 @@
      display: flex;
      flex-direction: column;
      gap: 13px;
- }
-
- .radio__title {
-     margin: 0;
-     margin-bottom: 13px;
-     font-family: Inter;
-     font-size: 12px;
-     font-weight: 500;
-     line-height: 18px;
-     letter-spacing: 0.04em;
-     text-align: left;
-     color: #ACB5BD;
  }
