@@ -1,0 +1,20 @@
+/* .tabs {
+    display: inline-block;
+    position: relative;
+} */
+
+.tabs__scroller {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.tabs label {
+    line-height: 24px;
+    color: #ACB5BD;
+    height: 37px;
+}
+
+.tabs__label:checked~.tabs__input {
+    color: #212429;
+}
