@@ -12,3 +12,28 @@
     line-height: 64px;
     color: var(--black);
 }
+
+.header__logo {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        padding: 16px 16px 69px;
+    }
+
+    .header__logo {
+        display: block;
+    }
+
+    .header__title {
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 38px;
+        text-align: left;
+        margin: 0;
+        margin-top: 48px;
+        color: var(--grey-4);
+    }
+}
