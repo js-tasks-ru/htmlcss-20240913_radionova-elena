@@ -27,9 +27,6 @@
      height: 18px;
      background: #4263EB;
      border-radius: 50%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
  }
 
 
@@ -48,11 +45,11 @@
  }
 
  .radio__round {
-     display: none;
+    opacity: 0;
  }
 
  .radio__input:checked~.radio__state .radio__round {
-     display: block;
+     opacity: 1;
  }
 
  .radio__input:disabled~.radio__state .radio__control {
@@ -70,10 +67,4 @@
      line-height: 24px;
      text-align: left;
      color: #495057;
- }
-
- .radio-wrapper {
-     display: flex;
-     flex-direction: column;
-     gap: 13px;
  }
