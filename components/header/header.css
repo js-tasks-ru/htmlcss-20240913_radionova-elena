@@ -1,7 +1,7 @@
 .header {
     background-color: var(--white);
     padding-top: 96px;
-    padding-bottom: 77px;
+    /* padding-bottom: 77px; */
     font-family: 'Inter', sans-serif;
 }
 

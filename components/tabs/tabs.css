@@ -1,0 +1,43 @@
+.tabs__scroller {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.tabs label {
+    line-height: 24px;
+    color: #ACB5BD;
+    height: 37px;
+    user-select: none;
+}
+
+.tabs__input:checked+label {
+    color: #212429;
+}
+
+.tabs__input {
+    position: absolute;
+    opacity: 0;
+    top: -100 vw;
+}
+
+.input__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs__underline {
+    height: 5px;
+    margin: 0 50% 0 50%;
+}
+
+.tabs__input:hover~.tabs__underline {
+    background-color: #212429;
+    margin: 0;
+    transition: margin 0.3s;
+}
+
+.tabs__input:checked~.tabs__underline {
+    background-color: #212429;
+    margin: 0;
+}
