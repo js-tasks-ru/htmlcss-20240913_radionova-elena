@@ -43,4 +43,9 @@
     background: #F9FAFC;
     text-align: center;
     padding-bottom: 56px;
+
+@media screen and (max-width: 375px) {
+    .footer {
+        display: none;
+    }
 }

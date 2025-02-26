@@ -34,5 +34,16 @@
         color: var(--grey-4);
         margin: 0;
         margin-bottom: 20px;
+
+@media screen and (max-width: 375px) {
+    .main {
+        padding-top: 24px;
+    }
+
+    .main__grid {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
     }
 }

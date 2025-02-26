@@ -17,6 +17,9 @@
 .header_inner {
     background: #F9FAFC;
     margin-bottom: 36px;
+
+.header__logo {
+    display: none;
 }
 
 @media screen and (max-width: 375px) {
