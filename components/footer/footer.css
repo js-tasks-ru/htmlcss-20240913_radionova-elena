@@ -20,6 +20,7 @@
 }
 
 .footer__description {
+    max-width: 640px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -27,6 +28,21 @@
     text-align: center;
     color: var(--black);
 }
+
+.footer__text {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #ACB5BD;
+    margin: 0;
+}
+
+.footer_inner {
+    background: #F9FAFC;
+    text-align: center;
+    padding-bottom: 56px;
 
 @media screen and (max-width: 375px) {
     .footer {
