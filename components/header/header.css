@@ -6,6 +6,7 @@
 }
 
 .header__title {
+    padding-top: 96px;
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
@@ -13,27 +14,26 @@
     color: var(--black);
 }
 
+.header_inner {
+    background: #F9FAFC;
+    margin-bottom: 36px;
+
 .header__logo {
     display: none;
 }
 
 @media screen and (max-width: 375px) {
     .header {
-        padding: 16px 16px 69px;
+        padding: 16px 0;
+        margin-bottom: 32px;
+        background: #F9FAFC;
     }
 
     .header__logo {
-        display: block;
-    }
-
-    .header__title {
-        font-family: Inter;
-        font-size: 28px;
-        font-weight: 400;
-        line-height: 38px;
-        text-align: left;
-        margin: 0;
-        margin-top: 48px;
-        color: var(--grey-4);
+        background: #F9FAFC;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
