@@ -10,13 +10,18 @@
 
 @media screen and (max-width: 375px) {
     .main {
-        padding-top: 24px;
+        padding: 0;
+        background: var(--white);
     }
 
-    .main__grid {
-        display: grid;
-        gap: 16px;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
+    .main__title {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        color: var(--grey-4);
+        margin: 0;
+        margin-bottom: 20px;
     }
 }

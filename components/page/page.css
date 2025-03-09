@@ -4,6 +4,10 @@ h1 {
     line-height: 64px;
 }
 
+.page__main {
+    flex-grow: 1;
+}
+  
 h2 {
     font-size: 38px;
     font-weight: 500;
