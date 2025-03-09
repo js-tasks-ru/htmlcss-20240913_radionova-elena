@@ -25,9 +25,10 @@
 
 .accordion__summary {
     cursor: pointer;
-    display: block;
+    display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    justify-content: space-between;
 }
 
 .accordion__item[open] .accordion__summary {
